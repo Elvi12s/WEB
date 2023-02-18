@@ -1,0 +1,55 @@
+
+-- create
+CREATE TABLE classmates (
+  empId INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  Address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO classmates(name,age,Address) VALUES ('Олег', 21, 'Москва');
+INSERT INTO classmates(name,age,Address) VALUES ('Александр',35,'Бежецк');
+INSERT INTO classmates(name,age,Address) VALUES ('Владимир',23,'Арзамас');
+INSERT INTO classmates(name,age,Address) VALUES ('Василий',20,'Великие Луки');
+INSERT INTO classmates(name,age,Address) VALUES ('Сергей',37,'Борисоглебск');
+INSERT INTO classmates(name,age,Address) VALUES ('Андрей',18,'Богданович');
+INSERT INTO classmates(name,age,Address) VALUES ('Дмитрий',35,'Белгород');
+INSERT INTO classmates(name,age,Address) VALUES ('Михаил',32,'Белебей');
+INSERT INTO classmates(name,age,Address) VALUES ('Юрий',35,'Белебей');
+INSERT INTO classmates(name,age,Address) VALUES ('Николай',18,'Арсеньев');
+INSERT INTO classmates(name,age,Address) VALUES ('Роман',22,'Артёмовск');
+INSERT INTO classmates(name,age,Address) VALUES ('Олег',23,'Белинский');
+INSERT INTO classmates(name,age,Address) VALUES ('Алексей',29,'Билибино');
+INSERT INTO classmates(name,age,Address) VALUES ('Виктор',33,'Бежецк');
+INSERT INTO classmates(name,age,Address) VALUES ('Павел',21,'Верхняя Пышма');
+INSERT INTO classmates(name,age,Address) VALUES ('Борис',31,'Артёмовск');
+INSERT INTO classmates(name,age,Address) VALUES ('Евгений',36,'Архангельск');
+INSERT INTO classmates(name,age,Address) VALUES ('Константин',23,'Арамиль');
+INSERT INTO classmates(name,age,Address) VALUES ('Иван',30,'Болотное');
+INSERT INTO classmates(name,age,Address) VALUES ('Валерий',31,'Бронницы');
+INSERT INTO classmates(name,age,Address) VALUES ('Антон',23,'Брянск');
+INSERT INTO classmates(name,age,Address) VALUES ('Максим',34,'Ачхой-Мартан');
+INSERT INTO classmates(name,age,Address) VALUES ('Виталий',33,'Артёмовск');
+INSERT INTO classmates(name,age,Address) VALUES ('Леонид',21,'Ветлуга');
+INSERT INTO classmates(name,age,Address) VALUES ('Анатолий',19,'Богородицк');
+INSERT INTO classmates(name,age,Address) VALUES ('Лев',27,'Белебей');
+INSERT INTO classmates(name,age,Address) VALUES ('Игорь',18,'Бологое');
+INSERT INTO classmates(name,age,Address) VALUES ('Вячеслав',36,'Апшеронск');
+INSERT INTO classmates(name,age,Address) VALUES ('Кирилл',37,'Алзамай');
+INSERT INTO classmates(name,age,Address) VALUES ('Вадим',21,'Балашиха');
+INSERT INTO classmates(name,age,Address) VALUES ('Илья',34,'Ардатов');
+INSERT INTO classmates(name,age,Address) VALUES ('Денис',37,'Владикавказ');
+INSERT INTO classmates(name,age,Address) VALUES ('Геннадий',18,'Бузулук');
+INSERT INTO classmates(name,age,Address) VALUES ('Георгий',24,'Ветлуга');
+INSERT INTO classmates(name,age,Address) VALUES ('Никита',20,'Весьегонск');
+INSERT INTO classmates(name,age,Address) VALUES ('Марк',18,'Ангарск');
+INSERT INTO classmates(name,age,Address) VALUES ('Станислав',20,'Буй');
+INSERT INTO classmates(name,age,Address) VALUES ('Григорий',25,'Богородск');
+INSERT INTO classmates(name,age,Address) VALUES ('Роберт',36,'Барнаул');
+INSERT INTO classmates(name,age,Address) VALUES ('Ян',35,'Берёзовский');
+INSERT INTO classmates(name,age,Address) VALUES ('Валентин',35,'Верхняя Салда');
+
+
+
+SELECT * FROM classmates;
